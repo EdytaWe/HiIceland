@@ -10,6 +10,16 @@ header{
   color: white;
   text-align: center;
   position: fixed;
+
+  &__logo{
+    margin-top: 100px;
+  }
+  &__menu{
+    margin-top: 20vh;
+    &__content{
+      margin-bottom: 50px;
+    }
+  }
 }
 .banner{
   display: flex;
@@ -31,8 +41,9 @@ header{
     margin-top: 25px;
     margin-bottom: 50px;
 }
-  &__button{
-    //margin-top: 50px;
+  &__arrow{
+    margin-top: 220px;
+    margin-left: calc(50% - 20px);
   }
   &__picture{
     width: 919px;
