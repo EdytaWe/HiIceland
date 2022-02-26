@@ -83,6 +83,11 @@ body {
   cursor: pointer;
 }
 
+.container {
+  width: 1780px;
+  margin: 0 auto 0 120px;
+}
+
 header {
   background-color: #E4EFF0;
   display: flex;
@@ -121,5 +126,32 @@ header {
   width: 919px;
   height: auto;
   margin: 44px 45px 44px 68px;
+}
+
+footer {
+  background-color: #2B3956;
+  height: 203px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.footer__copy {
+  font-size: 0.9375rem;
+  margin-top: 140px;
+}
+.footer__menu {
+  display: flex;
+  align-items: center;
+}
+.footer__menu__content {
+  margin-right: 20px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.footer__menu__content:last-of-type {
+  margin-right: 0;
 }
 /*# sourceMappingURL=style.css.map */

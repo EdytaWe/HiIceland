@@ -1,0 +1,26 @@
+footer{
+  background-color: $navigation-color;
+  height: 203px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  &__copy{
+    font-size: 0.9375rem;
+    margin-top: 140px;
+  }
+  &__menu{
+    display: flex;
+    align-items: center;
+    &__content{
+      margin-right: 20px;
+      font-size: 1.25rem;
+      font-weight: 600;
+      &:last-of-type{
+        margin-right: 0;
+      }
+    }
+  }
+}
