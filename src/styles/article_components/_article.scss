@@ -1,0 +1,49 @@
+.blog {
+  width: 1920px;
+  height: 3321px;
+  border: 1px solid red;
+
+  .blog__article {
+
+    .article__content {
+      width: 966px;
+      height: auto;
+
+      .article__title {
+        margin-top: 109px;
+        height: 189px;
+        width: 100%;
+        font-size: 4.0625rem;
+        color: $blog-text;
+        line-height: 6.125rem;
+
+      }
+
+      .article__info {
+
+      }
+
+      .blog__article__picture {
+
+        width: 950px;
+        height: 627px;
+        margin-top: 25px;
+        background-image: url("../assets/picture4.png");
+
+
+      }
+
+
+      .article__description {
+        margin-top: 60px;
+        width: 100%;
+        color: $blog-text;
+        font-size: 1.125rem;
+        text-align: left;
+        line-height:1.6875rem;
+      }
+    }
+
+
+  }
+}
