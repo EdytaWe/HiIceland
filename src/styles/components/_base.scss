@@ -1,7 +1,19 @@
-.container{
-  width: 1780px;
-  margin: 0 auto 0 140px;
-}
-body{
+
+body {
   background-color: $background-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .main-container {
+
+    .container {
+
+      width: 1780px;
+      margin: 0 auto 0 140px;
+    }
+
+
+  }
+
 }

@@ -83,13 +83,15 @@ body {
   cursor: pointer;
 }
 
-.container {
-  width: 1780px;
-  margin: 0 auto 0 140px;
-}
-
 body {
   background-color: #F0F2F2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main-container .container {
+  width: 1780px;
+  margin: 0 auto 0 140px;
 }
 
 header {
@@ -167,15 +169,15 @@ header {
   background-size: cover;
 }
 .blog__article__picture__first {
-  background-image: url("../../../public/assets/picture2.png");
+  background-image: url("../assets/picture2.png");
   background-color: red;
 }
 .blog__article__picture__second {
-  background-image: url("../../../public/assets/picture3.png");
+  background-image: url("../assets/picture3.png");
   background-color: blue;
 }
 .blog__article__picture__third {
-  background-image: url("../../../public/assets/picture3.png");
+  background-image: url("../assets/picture4.png");
   background-color: green;
 }
 

@@ -16,15 +16,15 @@
       height: 456px;
       background-size: cover;
       &__first{
-        background-image: url("../../../public/assets/picture2.png");
+        background-image: url("../assets/picture2.png");
         background-color: red;
       }
       &__second{
-        background-image: url("../../../public/assets/picture3.png");
+        background-image: url("../assets/picture3.png");
         background-color: blue;
       }
       &__third{
-        background-image: url("../../../public/assets/picture3.png");
+        background-image: url("../assets/picture4.png");
         background-color: green;
       }
     }
