@@ -85,7 +85,11 @@ body {
 
 .container {
   width: 1780px;
-  margin: 0 auto 0 120px;
+  margin: 0 auto 0 140px;
+}
+
+body {
+  background-color: #F0F2F2;
 }
 
 header {
