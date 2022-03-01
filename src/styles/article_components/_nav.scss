@@ -1,0 +1,58 @@
+.main-container {
+
+
+  .container {
+
+    .navigation {
+      width: 140px;
+      height: 100%;
+      background-color: $navigation-color;
+
+      text-align: center;
+      position: fixed;
+
+
+      &__logo {
+        margin-top: 100px;
+      }
+
+      &__menu {
+        margin-top: 20vh;
+
+        &__content {
+          margin-bottom: 50px;
+
+          .content__item {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+
+            &:hover {
+              font-weight: bold;
+
+            }
+
+            .search {
+
+              //nie wyswietla
+
+              //background-image: url("../assets/search.png");
+              //background-repeat:no-repeat;
+              //background-size: cover;
+              width: 14px;
+              height: 14px;
+              color: white;
+
+            }
+          }
+
+
+        }
+      }
+    }
+
+  }
+
+
+}
+
