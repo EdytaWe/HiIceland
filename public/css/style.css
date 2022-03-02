@@ -281,38 +281,6 @@ footer {
   font-size: 20px;
 }
 
-footer {
-  background-color: #4B7196;
-  height: 203px;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-around;
-  color: white;
-}
-.footer__copy {
-  font-size: 0.9375rem;
-  margin-top: 140px;
-}
-.footer__menu {
-  display: flex;
-  align-items: center;
-}
-.footer__menu__content {
-  margin-right: 20px;
-  font-size: 1.25rem;
-  font-weight: 600;
-}
-.footer__menu__content:last-of-type {
-  margin-right: 0;
-}
-.footer .content__item {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-
 .main-container .container .navigation {
   width: 140px;
   height: 100%;
