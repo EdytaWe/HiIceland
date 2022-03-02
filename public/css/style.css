@@ -219,6 +219,13 @@ body .main-container .container {
   background-image: url("../assets/bookmark.png");
   margin-left: 270px;
 }
+.blog .blog__article .article__content .article__info .article__mark__full {
+  width: 16.38px;
+  height: 21.84px;
+  background-image: url("../assets/bookmarkfull.png");
+  margin-left: 270px;
+  display: none;
+}
 .blog .blog__article .article__content .article__title {
   margin: 38px auto 29px 0;
   height: 131px;
@@ -336,16 +343,16 @@ footer {
   color: white;
 }
 
-.blog {
+.page__blog {
   width: 1920px;
   height: 3321px;
   border: 1px solid red;
 }
-.blog .blog__article .article__content {
+.page__blog .page__blog__article .page__article__content {
   width: 966px;
   height: auto;
 }
-.blog .blog__article .article__content .article__title {
+.page__blog .page__blog__article .page__article__content .page__article__title {
   margin-top: 109px;
   height: 189px;
   width: 100%;
@@ -353,13 +360,13 @@ footer {
   color: #0f0f0f;
   line-height: 6.125rem;
 }
-.blog .blog__article .article__content .blog__article__picture {
+.page__blog .page__blog__article .page__article__content .blog__article__picture {
   width: 950px;
   height: 627px;
   margin-top: 25px;
   background-image: url("../assets/picture4.png");
 }
-.blog .blog__article .article__content .article__description {
+.page__blog .page__blog__article .page__article__content .article__description {
   margin-top: 60px;
   width: 100%;
   color: #0f0f0f;

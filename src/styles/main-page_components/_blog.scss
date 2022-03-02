@@ -65,6 +65,13 @@
           height: 21.84px;
           background-image: url("../assets/bookmark.png");
           margin-left: 270px;
+          &__full{
+            width: 16.38px;
+            height: 21.84px;
+            background-image: url("../assets/bookmarkfull.png");
+            margin-left: 270px;
+            display: none;
+          }
         }
       }
 

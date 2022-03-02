@@ -1,15 +1,15 @@
-.blog {
+.page__blog {
   width: 1920px;
   height: 3321px;
   border: 1px solid red;
 
-  .blog__article {
+  .page__blog__article {
 
-    .article__content {
+    .page__article__content {
       width: 966px;
       height: auto;
 
-      .article__title {
+      .page__article__title {
         margin-top: 109px;
         height: 189px;
         width: 100%;
@@ -19,7 +19,7 @@
 
       }
 
-      .article__info {
+      .page__article__info {
 
       }
 
