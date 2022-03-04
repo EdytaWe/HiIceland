@@ -1,0 +1,36 @@
+.contact{
+  text-align: center;
+  margin-bottom: 210px;
+  &__title{
+    font-size: 65px;
+    line-height: 98px;
+    margin-bottom: 75px;
+  }
+  &__button{
+    width: 196px;
+    height: 55px;
+  }
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  width: 740px;
+  background-color: $background-color;
+  border: none;
+  border-bottom: 1px solid #707070;
+  padding: 5px;
+  margin-bottom: 45px;
+  &:last-of-type {
+    margin-bottom: 130px;
+  }
+  &::placeholder{
+    font-size:22px;
+    line-height: 33px;
+    text-transform:uppercase;
+    color: #707070;
+  }
+}
