@@ -1,1 +1,26 @@
-//do zrobienia położenia nav, kontenera z article i tagów (+footer) w layoucie
+
+.main-container {
+  width: 1920px;
+  .article-container {
+
+    //width: 1780px;
+    margin: 0 auto 0 auto;
+    display: flex;
+
+    .navigation {
+      height: 1080px;
+    }
+
+    .page__blog {
+      margin-left: 340px;
+      margin-right: 170px;
+    }
+
+  }
+
+}
+
+.article-footer{
+  width: 1920px;
+
+}
