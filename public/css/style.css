@@ -519,4 +519,111 @@ footer {
   position: absolute;
   bottom: -20px;
 }
+
+.contact {
+  text-align: center;
+  margin-bottom: 210px;
+}
+.contact__title {
+  font-size: 65px;
+  line-height: 98px;
+  margin-bottom: 75px;
+}
+.contact__button {
+  width: 196px;
+  height: 55px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 740px;
+  background-color: #F0F2F2;
+  border: none;
+  border-bottom: 1px solid #707070;
+  padding: 5px;
+  margin-bottom: 45px;
+}
+input:last-of-type {
+  margin-bottom: 130px;
+}
+input::-moz-placeholder {
+  font-size: 22px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #707070;
+}
+input:-ms-input-placeholder {
+  font-size: 22px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #707070;
+}
+input::placeholder {
+  font-size: 22px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #707070;
+}
+
+.contact__header-container {
+  display: flex;
+  height: 1080px;
+}
+.contact__header-container .contact__navigation {
+  width: 140px;
+  height: 100%;
+  background-color: #4B7196;
+  text-align: center;
+  position: fixed;
+}
+.contact__header-container .contact__navigation__logo {
+  margin-top: 100px;
+}
+.contact__header-container .contact__navigation__menu {
+  margin-top: 20vh;
+}
+.contact__header-container .contact__navigation__menu__content {
+  margin-bottom: 50px;
+}
+.contact__header-container .contact__navigation__menu__content .contact__content__item {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.contact__header-container .contact__navigation__menu__content .contact__content__item:hover {
+  font-weight: bold;
+}
+.contact__header-container .contact__navigation__menu__content .contact__content__item .contact__search {
+  width: 14px;
+  height: 14px;
+  color: white;
+}
+
+.author {
+  display: flex;
+  padding: 227px 0 0 315px;
+}
+.author__picture {
+  height: 627px;
+  width: 526px;
+}
+.author__about {
+  width: 524px;
+  margin-left: 80px;
+}
+.author__title {
+  font-size: 65px;
+  line-height: 98px;
+  margin-bottom: 50px;
+}
+.author__description {
+  font-size: 18px;
+  line-height: 27px;
+}
 /*# sourceMappingURL=style.css.map */
